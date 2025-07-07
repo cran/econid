@@ -1,6 +1,6 @@
 Package: econid
 Title: Economic Entity Identifier Standardization
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     c(
         person("L. Teal Emery", email = "lte@tealinsights.com", role = c("cre")),
@@ -12,8 +12,8 @@ Description: Provides utility functions for standardizing economic entity (econo
 License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.3.2
-Imports: cli, dplyr, purrr, fuzzyjoin, rlang, tibble, tidyr
-Suggests: testthat (>= 3.0.0), stringr, withr
+Imports: cli, dplyr, purrr, rlang, stringr, tibble, tidyr
+Suggests: testthat (>= 3.0.0), withr
 Config/testthat/edition: 3
 URL: https://teal-insights.github.io/r-econid/,
         https://github.com/Teal-Insights/r-econid
@@ -21,11 +21,11 @@ BugReports: https://github.com/Teal-Insights/r-econid/issues
 Depends: R (>= 4.1.0)
 LazyData: true
 NeedsCompilation: no
-Packaged: 2025-03-16 14:54:39 UTC; chriscarrollsmith
+Packaged: 2025-06-26 14:58:02 UTC; teal_emery
 Author: L. Teal Emery [cre],
   Christopher C. Smith [aut],
   Christoph Scheuch [ctb],
   Teal Insights [cph]
 Maintainer: L. Teal Emery <lte@tealinsights.com>
 Repository: CRAN
-Date/Publication: 2025-03-18 14:50:02 UTC
+Date/Publication: 2025-07-07 20:00:02 UTC
